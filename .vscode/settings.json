@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:IDRD_bot}/ID_RD.db",
+            "name": "IDRD"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
