@@ -1,4 +1,3 @@
-
 import subprocess
 import sqlite3
 import io
@@ -101,6 +100,7 @@ async def picture_handler(message: types.Message):
       else:
          await message.answer(f'No faces detected, your picture have NOT been saved to database')
 
+# Handler for text messages
 @dp.message_handler()
 async def echo(message: types.Message):
    await message.answer('Hello, I am ID R&D bot.\nYou can send me a voice note or a picture, and it will be saved into a database')
